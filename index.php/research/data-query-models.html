@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
+
+<!-- Mirrored from daspos.crc.nd.edu/index.php/research/data-query-models by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Jun 2024 15:41:19 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<base  />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Kristina Davis" />
+	<meta name="description" content="DASPOS Joomla 3 site" />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>Data Model and Query Semantics</title>
+	<link href="../../templates/daspos-protostar-collapse/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="../../templates/daspos-protostar-collapse/css/template.css" rel="stylesheet" type="text/css" />
+	<script src="../../media/jui/js/jquery.min1d72.js?b7cf51e4a1f82d20e0f1ce8d25f867a4" type="text/javascript"></script>
+	<script src="../../media/jui/js/jquery-noconflict1d72.js?b7cf51e4a1f82d20e0f1ce8d25f867a4" type="text/javascript"></script>
+	<script src="../../media/jui/js/jquery-migrate.min1d72.js?b7cf51e4a1f82d20e0f1ce8d25f867a4" type="text/javascript"></script>
+	<script src="../../media/system/js/caption1d72.js?b7cf51e4a1f82d20e0f1ce8d25f867a4" type="text/javascript"></script>
+	<script src="../../media/jui/js/bootstrap.min1d72.js?b7cf51e4a1f82d20e0f1ce8d25f867a4" type="text/javascript"></script>
+	<script src="../../templates/daspos-protostar-collapse/js/template.js" type="text/javascript"></script>
+	<script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+	</script>
+
+				<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,600italic,700' rel='stylesheet' type='text/css' />
+		<style type="text/css">
+			h1,h2,h3,h4,h5,h6,.site-title{
+				font-family: 'Open Sans', sans-serif;
+			}
+		</style>
+				<style type="text/css">
+		body.site
+		{
+			background-color: #757575;
+		}
+		a
+		{
+			color: #007ba6;
+		}
+		.navbar-inner, .nav-list > .active > a, .nav-list > .active > a:hover, .dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover, .nav-pills > .active > a, .nav-pills > .active > a:hover,
+		.btn-primary
+		{
+			background: #007ba6;
+		}
+		.navbar-inner
+		{
+			-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .25), inset 0 -1px 0 rgba(0, 0, 0, .1), inset 0 30px 10px rgba(0, 0, 0, .2);
+			-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .25), inset 0 -1px 0 rgba(0, 0, 0, .1), inset 0 30px 10px rgba(0, 0, 0, .2);
+			box-shadow: 0 1px 3px rgba(0, 0, 0, .25), inset 0 -1px 0 rgba(0, 0, 0, .1), inset 0 30px 10px rgba(0, 0, 0, .2);
+		}
+	</style>
+		<!--[if lt IE 9]>
+		<script src="/media/jui/js/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body class="site com_content view-article no-layout no-task itemid-129">
+
+	<!-- Body -->
+	<div class="body">
+		<div class="container">
+			<!-- Header -->
+			<header class="header" role="banner">
+				<div class="header-inner clearfix">
+					<a class="brand pull-left" href="../../index-2.html">
+<!--						<span class="site-title" title="DASPOS">DASPOS</span>    -->
+											</a>
+					<div class="header-search pull-right">
+						
+					</div>
+				</div>
+			</header>
+          <div class="shadow-box">
+            <p id="daspos-logo"><a href="../../index-2.html"><img src="../../images/daspos/daspos_banner.png" alt="Data Preservation for Open Science (DASPOS) logo" /></a><p>
+            <p id="daspos-logo-phone"><a href="../../index-2.html"><img src="../../images/daspos/daspos_banner_phone.png" alt="Data Preservation for Open Science (DASPOS) logo" /></a><p>
+							<nav class="navigation" role="navigation">
+					<div class="navbar pull-right">
+						<a class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</a>
+					</div>
+					<div class="nav-collapse">
+						<ul class="nav menu nav-just mod-list">
+<li class="item-102 parent"><a href="../about.html" >About</a></li><li class="item-112 parent"><a href="../people.html" >People</a></li><li class="item-121 parent"><a href="../workshops.html" >Workshops</a></li><li class="item-128 active deeper parent"><a href="../research.html" >Research</a><ul class="nav-child unstyled small"><li class="item-129 current active"><a href="data-query-models.html" >Data Model and Query Semantics</a></li><li class="item-132"><a href="software-sustainability-models.html" >Software Sustainability Models</a></li><li class="item-135"><a href="curation-challenge.html" >Curation Challenge</a></li></ul></li><li class="item-136 parent"><a href="../reports.html" >Reports</a></li></ul>
+
+					</div>
+				</nav>
+						
+			<div class="row-fluid">
+									<!-- Begin Sidebar -->
+					<div id="sidebar" class="span3">
+						<div class="sidebar-nav">
+									<div class="moduletable">
+							<h3 class=" menu-header">DASPOS Research</h3>
+						<ul class="nav menu daspos_sidenav mod-list">
+<li class="item-129 current"><a href="data-query-models.html" >Data Model and Query Semantics</a></li><li class="item-132"><a href="software-sustainability-models.html" >Software Sustainability Models</a></li><li class="item-135"><a href="curation-challenge.html" >Curation Challenge</a></li></ul>
+		</div>
+	
+						</div>
+					</div>
+					<!-- End Sidebar -->
+								<main id="content" role="main" class="span9">
+					<!-- Begin Content -->
+					
+					<div id="system-message-container">
+	</div>
+
+					<div class="item-page" itemscope itemtype="https://schema.org/Article">
+	<meta itemprop="inLanguage" content="en-GB" />
+	
+		
+						
+		
+	
+	
+		
+								<div itemprop="articleBody">
+		<h1>Data Model and Query Semantics</h1>
+<p>In order for a body of data to remain useful over the long term, the user community must have a common understanding of the organization of the data (the data model) and the form of queries that can be performed on that data model (the query semantics). To this end, a primary objective of this project will be to clearly document the data model and query semantics for the various physics use cases of the LHC and Tevatron data, gain the acceptance of the stakeholders for the model, and verify its ability to represent multiple physical organizations and software technologies. Each of the experiments has addressed this problem in some detail for its own purposes, however it remains an open problem to describe these sources in a common way that can be inteagrated into both local and institutional repositories.</p>
+<h2>Approaches to Data and Query Modeling</h2>
+<p>This research area will begin with an understanding of the high level data use and re-use cases generated by <a href="../workshops/workshop-1.html">Workshop 1</a> and <a href="../workshops/workshop-2.html"> Workshop 2</a>, and then follow up by surveying the technical data models generated by each of the LHC experiments. These will be combined into a draft common form to be discussed in detail at <a href="../workshops/workshop-3.html">Workshop 3</a>. The workshop will be used to finalize the data model, and to better understand the long-term use cases, including broad applicability across disciplines. One of the most important principles that has emerged from the body of work on database management is the principle of separation of logical and physical data organization. Simply put, the user’s ability to view and manipulate the data should be completely independent from the physical organization of the data in storage. This frees the storage system to choose the best physical organization for the desired access pattern, and also allows the data to move freely between multiple storage systems that may have completely different implementations.</p>
+<p>To verify the data model and query semantics, we will construct prototype software that supports a small number of physical organizations on multiple storage systems, (e.g. local disk and HDFS) and a small number of query technologies (e.g. SQL and SPARQL). If we have defined the data model and implemented it correctly, it should be possible to change both physical layouts and software technologies without affecting the ability of the user to query and obtain data. The selection of appropriate storage technologies will be driven by the experience of <a href="../workshops/workshop-6.html">Workshop 6</a>.</p>
+<p>After demonstrating the working prototype, it will be documented and made available as open source software to facilitate understanding and extension of our work after the project concludes. We expect that the presentation of these results and the software will be a significant portion of one of the final-year workshops.</p>
+<h2>Technical and Organizational Challenges</h2>
+<p>To date, the LHC data has not entirely observed the principle of separation of logical and physical data organization, resulting in many organizational and technical challenges. As the recommended storage method has evolved from plain files to object-based repositories like Objectivity to distributed filesystems like HDFS, the user community has paid a significant price to adapt applications and middleware to interact with each new software system. Each instance of changing the physical organization at a site requires major downtime, reconfiguration, and user difficulty before the system is ready again.</p>
+<p>The sheer size of the LHC data also has an impact on the technical design - we cannot assume that an implementation that can handle GB can be trivially scaled up to PB of data by simply attaching a larger filesystem. In practice, consumers of the data are interested in subsets of the data, which may be defined by trigger conditions, vertical slices of the detector output, or even random sampling for testing. Because few (if any) sites beyond CERN will have the capacity to store all of the data, different overlapping subsets will be stored at multiple sites. The policy and mechanism for moving data among sites will be highly variable and may depend on research interests, infrastructure investment, and sharing policies. These issues will be guided in detail by the outputs of <a href="../workshops/workshop-5.html">Workshop 5</a>. Because of this, the data model, the query language, and the prototype implementations must all accommodate the semantics of distributed data. One carefully-crafted query may access only locally-stored data with a reasonably predictable access time. A slight change to the query (or the underlying data distribution) may cause the query to refer to data currently stored at multiple sites, which can make the time to execute the query effectively unbounded in both time and resources. An effective model and implementation must take this physical distribution into account, allowing for the user to express their intentions and the system to respond with its configuration and limitations, including the possible absence of data in the final result.</p>	</div>
+
+	
+							</div>
+
+					
+					<!-- End Content -->
+				</main>
+							</div>  <!-- Close row-fluid -->
+            <div id="footer-logo"></div>
+            </div>
+	      </div>  <!-- Close shadow-box -->
+		</div>  <!-- Close container -->
+	</div> <!-- Close Body -->
+	<!-- Footer -->
+	<footer class="footer" role="contentinfo">
+		<div class="container">
+			
+			<p class="pull-right">
+				<a href="#top" id="back-top">
+					Back to Top				</a>
+			</p>
+			<p>
+				&copy; 2024 DASPOS			</p>
+		</div>
+	</footer>
+	
+</body>
+
+<!-- Mirrored from daspos.crc.nd.edu/index.php/research/data-query-models by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Jun 2024 15:41:19 GMT -->
+</html>

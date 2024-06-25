@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>DASPOS Notices</title>
+		<description><![CDATA[DASPOS Joomla 3 site]]></description>
+		<link>http://daspos.crc.nd.edu/index.php/daspos-notices</link>
+		<lastBuildDate>Tue, 25 Jun 2024 15:38:10 +0000</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="http://daspos.crc.nd.edu/index.php/daspos-notices?format=feed&amp;type=rss"/>
+		<language>en-gb</language>
+		<managingEditor>rwieck@nd.edu (DASPOS)</managingEditor>
+		<item>
+			<title>DASPOS Workshop Container Strategies</title>
+			<link>http://daspos.crc.nd.edu/index.php/daspos-notices/52-vocampnd2015-2</link>
+			<guid isPermaLink="true">http://daspos.crc.nd.edu/index.php/daspos-notices/52-vocampnd2015-2</guid>
+			<description><![CDATA[<p>DASPOS Workshop on<a href="http://daspos.crc.nd.edu/index.php/workshops/container-strategies-for-data-software-preservation-that-promote-open-science"> Container Strategies for Data and Software Preservation that Promote Open Science</a> at the University of Notre Dame May 19 - May 20, 2016.</p>]]></description>
+			<author>kfurse@nd.edu (Kristina Davis)</author>
+			<category>DASPOS Noticeboard</category>
+			<pubDate>Thu, 23 Jul 2015 19:31:53 +0000</pubDate>
+		</item>
+		<item>
+			<title>DASPOS at JCDL in RAD</title>
+			<link>http://daspos.crc.nd.edu/index.php/daspos-notices/48-daspos-at-jcdl-in-research-data-alliance</link>
+			<guid isPermaLink="true">http://daspos.crc.nd.edu/index.php/daspos-notices/48-daspos-at-jcdl-in-research-data-alliance</guid>
+			<description><![CDATA[<p>The <a href="https://www.rd-alliance.org">Research Data Alliance, RAD</a>, mentions DASPOS efforts in supporting data citation in very large or dynamic data settings in <a href="https://www.rd-alliance.org/data-citation-making-dynamic-data-citable-wg-update.html">Data Citation: Making Dynamic Data Citable WG Update</a></p>]]></description>
+			<author>kfurse@nd.edu (Kristina Davis)</author>
+			<category>DASPOS Noticeboard</category>
+			<pubDate>Thu, 23 Jul 2015 19:31:21 +0000</pubDate>
+		</item>
+		<item>
+			<title>DASPOS in the Press</title>
+			<link>http://daspos.crc.nd.edu/index.php/daspos-notices/47-daspos-in-the-press</link>
+			<guid isPermaLink="true">http://daspos.crc.nd.edu/index.php/daspos-notices/47-daspos-in-the-press</guid>
+			<description><![CDATA[<p><a href="http://www.nature.com">nature, International Weekly Journal of Science</a>, talks DASPOS in <a href="http://www.nature.com/news/lhc-plans-for-open-data-future-1.14244"><em>LHC plans for open data future</em></a></p>]]></description>
+			<author>kfurse@nd.edu (Kristina Davis)</author>
+			<category>DASPOS Noticeboard</category>
+			<pubDate>Thu, 23 Jul 2015 19:30:56 +0000</pubDate>
+		</item>
+		<item>
+			<title>Second Workshop Completed</title>
+			<link>http://daspos.crc.nd.edu/index.php/daspos-notices/46-second-workshop-completed</link>
+			<guid isPermaLink="true">http://daspos.crc.nd.edu/index.php/daspos-notices/46-second-workshop-completed</guid>
+			<description><![CDATA[<p>The second DASPOS Workshop took place on Thursday, July 25, 2013, at ACM/IEEE JCDL in Indianapolis, Indiana. <a href="http://daspos.crc.nd.edu/index.php/workshops/workshop-2">More information</a></p>]]></description>
+			<author>kfurse@nd.edu (Kristina Davis)</author>
+			<category>DASPOS Noticeboard</category>
+			<pubDate>Thu, 23 Jul 2015 19:30:31 +0000</pubDate>
+		</item>
+		<item>
+			<title>First Workshop Completed</title>
+			<link>http://daspos.crc.nd.edu/index.php/daspos-notices/45-first-workshop-completed</link>
+			<guid isPermaLink="true">http://daspos.crc.nd.edu/index.php/daspos-notices/45-first-workshop-completed</guid>
+			<description><![CDATA[<p>The first DASPOS Workshop took place on Thursday - Friday, March 21-22, 2013, at CERN. <a href="http://daspos.crc.nd.edu/index.php/workshops/workshop-1">More information </a></p>]]></description>
+			<author>kfurse@nd.edu (Kristina Davis)</author>
+			<category>DASPOS Noticeboard</category>
+			<pubDate>Thu, 23 Jul 2015 19:30:05 +0000</pubDate>
+		</item>
+		<item>
+			<title>DASPOS Funded</title>
+			<link>http://daspos.crc.nd.edu/index.php/daspos-notices/44-daspos-funded</link>
+			<guid isPermaLink="true">http://daspos.crc.nd.edu/index.php/daspos-notices/44-daspos-funded</guid>
+			<description><![CDATA[<img src="http://daspos.crc.nd.edu/images/daspos/daspos_logo_plain.png" border="0" class="notice-logo" /><p>December 2012 - The DASPOS project has received funding from the National Science Foundation.</p>]]></description>
+			<author>kfurse@nd.edu (Kristina Davis)</author>
+			<category>DASPOS Noticeboard</category>
+			<pubDate>Thu, 23 Jul 2015 19:28:23 +0000</pubDate>
+		</item>
+	</channel>
+</rss>
